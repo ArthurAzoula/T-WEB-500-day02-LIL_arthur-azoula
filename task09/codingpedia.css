@@ -113,6 +113,12 @@ input, select, textarea {
 
 .radio-group input[type="radio"] {
     margin-left: 10px;
+    text-align: center;
+}
+
+.radio {
+    text-align: left;
+    margin-left: 5px;
 }
 
 .form-container input[type="submit"] {
