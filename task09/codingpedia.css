@@ -1,0 +1,128 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: white;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main > p {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    border: #72b6ff;
+    background-color: #72b6ff;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+main {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+}
+
+
+input, select, textarea {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px; 
+}
+
+/* Add this CSS to style the radio buttons */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.radio-group label {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.radio-group input[type="radio"] {
+    margin-left: 10px;
+}
+
+.form-container input[type="submit"] {
+    justify-self: end;
+}
+
+.footer {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px; 
+    text-align: center; 
+}
