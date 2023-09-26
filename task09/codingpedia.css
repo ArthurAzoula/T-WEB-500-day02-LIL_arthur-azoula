@@ -76,10 +76,6 @@ textarea {
     resize: vertical;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
 input[type="submit"] {
     padding: 10px 20px;
 }
